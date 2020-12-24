@@ -1,0 +1,22 @@
+.impowerBox .qrcode {width: 230px;}
+.impowerBox .title {display: none;}
+/*.impowerBox .info {width: 200px;}*/
+.impowerBox .wrp_code {margin-top: 0 !important;}
+/*.status_icon {display: none !important;}*/
+/*.impowerBox .status {text-align: center;}*/
+#wx_default_tip:before {
+  content: '请使用随行办公扫描二维码登录';
+  font-size: 13px;
+}
+.impowerBox .status.status_browser p {
+  display: none;
+}
+.impowerBox .status_succ .status_txt p {
+  display: none;
+}
+.impowerBox .status.status_succ .status_txt:after {
+  content: '请在随行办公中点击确认即可登录';
+  font-size: 12px;
+  line-height: 17px;
+  color: #A1A7AC;
+}
