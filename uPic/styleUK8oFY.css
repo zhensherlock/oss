@@ -1,0 +1,13 @@
+.impowerBox .qrcode {width: 200px;}
+.impowerBox .title {display: none;}
+.impowerBox .info {width: 200px;}
+.impowerBox .wrp_code {margin-top: 0 !important;}
+/*.status_icon {display: none !important;}*/
+/*.impowerBox .status {text-align: center;}*/
+#wx_default_tip:before {
+  content: '请使用随行办公扫描二维码登录';
+  font-size: 13px;
+}
+.impowerBox .status p {
+  display: none;
+}
